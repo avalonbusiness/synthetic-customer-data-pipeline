@@ -28,7 +28,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 python -m src.pipeline --rows 10000 --seed 42 --output-dir outputs
-pytest -q
+pytest -q # python -m pytest -q
 ```
 
 The pipeline prints a summary and writes files into `outputs/`:
